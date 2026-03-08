@@ -118,7 +118,7 @@ HOBBY_JOKE: [your hobby joke here]
 BIRTHDAY_WISH: [your birthday wish here]"""
 
     message = client.messages.create(
-        model="claude-3-5-haiku-20241022",
+        model="claude-haiku-4-20250214",
         max_tokens=300,
         messages=[
             {"role": "user", "content": prompt}
